@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D911A92B1E0D2802000B78E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911A92A1E0D2802000B78E5 /* AppDelegate.swift */; };
+		D911A92D1E0D2802000B78E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911A92C1E0D2802000B78E5 /* ViewController.swift */; };
+		D911A9301E0D2802000B78E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D911A92E1E0D2802000B78E5 /* Main.storyboard */; };
+		D911A9321E0D2802000B78E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D911A9311E0D2802000B78E5 /* Assets.xcassets */; };
+		D911A9351E0D2802000B78E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D911A9331E0D2802000B78E5 /* LaunchScreen.storyboard */; };
+		D911A9401E0D2802000B78E5 /* HLWaterFlowlayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911A93F1E0D2802000B78E5 /* HLWaterFlowlayoutTests.swift */; };
+		D911A94B1E0D2802000B78E5 /* HLWaterFlowlayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911A94A1E0D2802000B78E5 /* HLWaterFlowlayoutUITests.swift */; };
+		D911A9591E0D2821000B78E5 /* BYWaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911A9581E0D2821000B78E5 /* BYWaterFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D911A93C1E0D2802000B78E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D911A91F1E0D2802000B78E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D911A9261E0D2802000B78E5;
+			remoteInfo = HLWaterFlowlayout;
+		};
+		D911A9471E0D2802000B78E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D911A91F1E0D2802000B78E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D911A9261E0D2802000B78E5;
+			remoteInfo = HLWaterFlowlayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D911A9271E0D2802000B78E5 /* HLWaterFlowlayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLWaterFlowlayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911A92A1E0D2802000B78E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D911A92C1E0D2802000B78E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D911A92F1E0D2802000B78E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D911A9311E0D2802000B78E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D911A9341E0D2802000B78E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D911A9361E0D2802000B78E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911A93B1E0D2802000B78E5 /* HLWaterFlowlayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLWaterFlowlayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911A93F1E0D2802000B78E5 /* HLWaterFlowlayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLWaterFlowlayoutTests.swift; sourceTree = "<group>"; };
+		D911A9411E0D2802000B78E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911A9461E0D2802000B78E5 /* HLWaterFlowlayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLWaterFlowlayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911A94A1E0D2802000B78E5 /* HLWaterFlowlayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLWaterFlowlayoutUITests.swift; sourceTree = "<group>"; };
+		D911A94C1E0D2802000B78E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911A9581E0D2821000B78E5 /* BYWaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYWaterFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D911A9241E0D2802000B78E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9381E0D2802000B78E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9431E0D2802000B78E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D911A91E1E0D2802000B78E5 = {
+			isa = PBXGroup;
+			children = (
+				D911A9291E0D2802000B78E5 /* HLWaterFlowlayout */,
+				D911A93E1E0D2802000B78E5 /* HLWaterFlowlayoutTests */,
+				D911A9491E0D2802000B78E5 /* HLWaterFlowlayoutUITests */,
+				D911A9281E0D2802000B78E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D911A9281E0D2802000B78E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D911A9271E0D2802000B78E5 /* HLWaterFlowlayout.app */,
+				D911A93B1E0D2802000B78E5 /* HLWaterFlowlayoutTests.xctest */,
+				D911A9461E0D2802000B78E5 /* HLWaterFlowlayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D911A9291E0D2802000B78E5 /* HLWaterFlowlayout */ = {
+			isa = PBXGroup;
+			children = (
+				D911A9581E0D2821000B78E5 /* BYWaterFlowLayout.swift */,
+				D911A92A1E0D2802000B78E5 /* AppDelegate.swift */,
+				D911A92C1E0D2802000B78E5 /* ViewController.swift */,
+				D911A92E1E0D2802000B78E5 /* Main.storyboard */,
+				D911A9311E0D2802000B78E5 /* Assets.xcassets */,
+				D911A9331E0D2802000B78E5 /* LaunchScreen.storyboard */,
+				D911A9361E0D2802000B78E5 /* Info.plist */,
+			);
+			path = HLWaterFlowlayout;
+			sourceTree = "<group>";
+		};
+		D911A93E1E0D2802000B78E5 /* HLWaterFlowlayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D911A93F1E0D2802000B78E5 /* HLWaterFlowlayoutTests.swift */,
+				D911A9411E0D2802000B78E5 /* Info.plist */,
+			);
+			path = HLWaterFlowlayoutTests;
+			sourceTree = "<group>";
+		};
+		D911A9491E0D2802000B78E5 /* HLWaterFlowlayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D911A94A1E0D2802000B78E5 /* HLWaterFlowlayoutUITests.swift */,
+				D911A94C1E0D2802000B78E5 /* Info.plist */,
+			);
+			path = HLWaterFlowlayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D911A9261E0D2802000B78E5 /* HLWaterFlowlayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911A94F1E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayout" */;
+			buildPhases = (
+				D911A9231E0D2802000B78E5 /* Sources */,
+				D911A9241E0D2802000B78E5 /* Frameworks */,
+				D911A9251E0D2802000B78E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLWaterFlowlayout;
+			productName = HLWaterFlowlayout;
+			productReference = D911A9271E0D2802000B78E5 /* HLWaterFlowlayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D911A93A1E0D2802000B78E5 /* HLWaterFlowlayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911A9521E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayoutTests" */;
+			buildPhases = (
+				D911A9371E0D2802000B78E5 /* Sources */,
+				D911A9381E0D2802000B78E5 /* Frameworks */,
+				D911A9391E0D2802000B78E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D911A93D1E0D2802000B78E5 /* PBXTargetDependency */,
+			);
+			name = HLWaterFlowlayoutTests;
+			productName = HLWaterFlowlayoutTests;
+			productReference = D911A93B1E0D2802000B78E5 /* HLWaterFlowlayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D911A9451E0D2802000B78E5 /* HLWaterFlowlayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911A9551E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayoutUITests" */;
+			buildPhases = (
+				D911A9421E0D2802000B78E5 /* Sources */,
+				D911A9431E0D2802000B78E5 /* Frameworks */,
+				D911A9441E0D2802000B78E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D911A9481E0D2802000B78E5 /* PBXTargetDependency */,
+			);
+			name = HLWaterFlowlayoutUITests;
+			productName = HLWaterFlowlayoutUITests;
+			productReference = D911A9461E0D2802000B78E5 /* HLWaterFlowlayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D911A91F1E0D2802000B78E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = hailong.huang;
+				TargetAttributes = {
+					D911A9261E0D2802000B78E5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D911A93A1E0D2802000B78E5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D911A9261E0D2802000B78E5;
+					};
+					D911A9451E0D2802000B78E5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D911A9261E0D2802000B78E5;
+					};
+				};
+			};
+			buildConfigurationList = D911A9221E0D2802000B78E5 /* Build configuration list for PBXProject "HLWaterFlowlayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D911A91E1E0D2802000B78E5;
+			productRefGroup = D911A9281E0D2802000B78E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D911A9261E0D2802000B78E5 /* HLWaterFlowlayout */,
+				D911A93A1E0D2802000B78E5 /* HLWaterFlowlayoutTests */,
+				D911A9451E0D2802000B78E5 /* HLWaterFlowlayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D911A9251E0D2802000B78E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911A9351E0D2802000B78E5 /* LaunchScreen.storyboard in Resources */,
+				D911A9321E0D2802000B78E5 /* Assets.xcassets in Resources */,
+				D911A9301E0D2802000B78E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9391E0D2802000B78E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9441E0D2802000B78E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D911A9231E0D2802000B78E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911A92D1E0D2802000B78E5 /* ViewController.swift in Sources */,
+				D911A92B1E0D2802000B78E5 /* AppDelegate.swift in Sources */,
+				D911A9591E0D2821000B78E5 /* BYWaterFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9371E0D2802000B78E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911A9401E0D2802000B78E5 /* HLWaterFlowlayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911A9421E0D2802000B78E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911A94B1E0D2802000B78E5 /* HLWaterFlowlayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D911A93D1E0D2802000B78E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D911A9261E0D2802000B78E5 /* HLWaterFlowlayout */;
+			targetProxy = D911A93C1E0D2802000B78E5 /* PBXContainerItemProxy */;
+		};
+		D911A9481E0D2802000B78E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D911A9261E0D2802000B78E5 /* HLWaterFlowlayout */;
+			targetProxy = D911A9471E0D2802000B78E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D911A92E1E0D2802000B78E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D911A92F1E0D2802000B78E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D911A9331E0D2802000B78E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D911A9341E0D2802000B78E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D911A94D1E0D2802000B78E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D911A94E1E0D2802000B78E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D911A9501E0D2802000B78E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLWaterFlowlayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D911A9511E0D2802000B78E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLWaterFlowlayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D911A9531E0D2802000B78E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLWaterFlowlayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLWaterFlowlayout.app/HLWaterFlowlayout";
+			};
+			name = Debug;
+		};
+		D911A9541E0D2802000B78E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLWaterFlowlayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLWaterFlowlayout.app/HLWaterFlowlayout";
+			};
+			name = Release;
+		};
+		D911A9561E0D2802000B78E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HLWaterFlowlayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HLWaterFlowlayout;
+			};
+			name = Debug;
+		};
+		D911A9571E0D2802000B78E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HLWaterFlowlayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hailong.huang.HLWaterFlowlayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HLWaterFlowlayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D911A9221E0D2802000B78E5 /* Build configuration list for PBXProject "HLWaterFlowlayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911A94D1E0D2802000B78E5 /* Debug */,
+				D911A94E1E0D2802000B78E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911A94F1E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911A9501E0D2802000B78E5 /* Debug */,
+				D911A9511E0D2802000B78E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911A9521E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911A9531E0D2802000B78E5 /* Debug */,
+				D911A9541E0D2802000B78E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911A9551E0D2802000B78E5 /* Build configuration list for PBXNativeTarget "HLWaterFlowlayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911A9561E0D2802000B78E5 /* Debug */,
+				D911A9571E0D2802000B78E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D911A91F1E0D2802000B78E5 /* Project object */;
+}
